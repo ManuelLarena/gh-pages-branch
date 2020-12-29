@@ -15,7 +15,7 @@ module.exports = merge(base, {
         test: /\.(png|jpg|gif|svg)$/,
         loader: 'file-loader',
         options: {
-          name: './imges/[name].[hash].[ext]',
+          name: './images/[name].[hash].[ext]',
         },
       },
     ],
